@@ -2,7 +2,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-cclass MovieCard extends React.Component {
+class MovieCard extends React.Component {
   render() {
     return (
       <div className="movie-card">
@@ -22,7 +22,7 @@ MovieCard.defaultProps = {
 };
 
 const jurassicWorldGenres = ['Action', 'Adventure', 'Science Fiction', 'Thriller'];
- 
+
 ReactDOM.render(
   <MovieCard
     title="Jurassic World"
